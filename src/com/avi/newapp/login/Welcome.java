@@ -36,7 +36,7 @@ public class Welcome extends Activity implements OnClickListener{
 
 		welcome_user = (TextView)findViewById(R.id.welcome_new);
 		regusers = (Button)findViewById(R.id.regusers);
-		photo = (ImageView)findViewById(R.id.photo_thumb);
+		photo = (ImageView)findViewById(R.id.photo_big);
 
 		regusers.setOnClickListener(this);
 
